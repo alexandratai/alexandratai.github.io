@@ -2055,7 +2055,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.1;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2073,7 +2073,7 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				content: 'Preview';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -2143,7 +2143,8 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 100%;
+				width: 150%;
+				margin-left: -40px;
 			}
 
 /* List */
@@ -2564,12 +2565,14 @@ input, select, textarea {
 		.work-item h3 {
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
+			text-align: center;
 		}
 
 		.work-item p {
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
+			text-align: center;
 		}
 
 /* Header */
@@ -3086,7 +3089,7 @@ input, select, textarea {
 				left: auto;
 				padding: 4em 4em 6em 4em;
 				position: relative;
-				text-align: center;
+				text-align: center; 
 				width: 100%;
 			}
 
